@@ -21,7 +21,8 @@ h1{
 }
 .input_section{
 padding: 5px;
-display: flex;
+   display:flex;
+
 
 }
 .list_section{
