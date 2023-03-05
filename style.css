@@ -75,6 +75,16 @@ padding: 5px;
 
 }
 
+@keyframes append-animate {
+	from {
+		transform: translateY(20%);
+		opacity: 0;
+	}
+	to {
+		transform: translateY(0%);
+		opacity: 1;
+	}
+}
 .todocon{
     background-color: rgb(103, 106, 102);
     display:flex;
@@ -85,6 +95,7 @@ padding: 5px;
     margin-top: 10px;
     padding: 5px;
     border-radius: 4px;
+    animation: append-animate .3s linear;
 }
 
 .deletebtn{
